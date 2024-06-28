@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Details - Ram's Portfolio</title>
+    <link rel="stylesheet" href="project.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f3f3;
+        color: #333;
+      }
+
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+      }
+
+      nav .logo a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5em;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1em;
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      .project-details {
+        padding: 20px;
+        border-radius: 8px;
+        background: #b3bfc2;
+        box-shadow: inset 12px 12px 14px #818a8c, inset -12px -12px 14px #e5f4f8;
+        margin-bottom: 20px;
+        
+      }
+
+      .project-details h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .project-overview {
+        display: flex;
+        gap: 20px;
+      }
+
+      .project-overview img {
+        max-width: 300px;
+        border-radius: 36px;
+        background: #e0e0e0;
+        box-shadow: 12px 12px 14px #a1a1a1, -12px -12px 14px #ffffff;
+      }
+
+      .project-info {
+        flex: 1;
+      }
+
+      .project-info h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      .project-info p {
+        margin-bottom: 20px;
+      }
+
+      .project-info ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .project-info ul li {
+        margin-bottom: 10px;
+      }
+
+      .project-description,
+      .project-features,
+      .project-links {
+        margin-top: 20px;
+      }
+
+      .project-features ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .project-features ul li {
+        margin-bottom: 10px;
+      }
+
+      .project-links a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #0066cc;
+        text-decoration: none;
+      }
+      
+      .project-links a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #333;
+        color: #fff;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><a href="index.html">Ram's Portfolio</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="project-details">
+        <h2>Amazon Clone</h2>
+        <div class="project-overview">
+          <img src="pictures/netflixclone.jpg" alt="Project Image" />
+          <div class="project-info">
+            <h3>
+              Develop a comprehensive e-commerce platform replicating Amazon's
+              key features, including a user-friendly interface, efficient
+              backend system, and robust payment integration.
+            </h3>
+            <p>
+              The primary purpose of this project was to create a functional
+              clone of the popular e-commerce platform, Amazon.com. The goal was
+              to replicate the core features and functionalities of the original
+              website, allowing users to browse and purchase products, manage
+              their shopping carts, and complete the checkout process
+              seamlessly.
+            </p>
+            <ul>
+              <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+              <li><strong>Duration:</strong> 3 months</li>
+              <li><strong>Team Size:</strong> 4 members</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-description">
+          <h3>Project Description</h3>
+          <p>
+            The "Clone of Amazon" project aimed to replicate the user interface
+            and core features of the popular e-commerce platform, Amazon. The
+            primary goal was to create a web application that would provide a
+            similar browsing and shopping experience to users, allowing them to
+            discover and purchase products. The project was developed using
+            modern web technologies, including React.js for the front-end,
+            Node.js and Express.js for the back-end server, and MongoDB as the
+            database. The application followed a responsive design approach to
+            ensure optimal viewing experience across various devices, including
+            desktops, tablets, and mobile phones.
+          </p>
+        </div>
+        <div class="project-features">
+          <h3>Key Features</h3>
+          <ul>
+            <li>
+              <b>Product Listings:</b> The clone includes a comprehensive product
+              listing section, where users can browse through various categories
+              and search for specific products. Each product page displays
+              detailed information, including product descriptions, images,
+              ratings, and reviews.
+            </li>
+            <li>
+              <b>Shopping Cart:</b> Users can add products to their shopping cart,
+              update quantities, and remove items as desired. The shopping cart
+              features a summary of the selected items, including subtotals and
+              estimated shipping costs.
+            </li>
+            <li>
+              <b>User Authentication:</b> Users can create accounts, log in, and manage
+              their personal information and order history. The authentication
+              system includes secure password handling and email verification
+              functionality.
+            </li>
+            <li>
+              <b>Order Tracking:</b> After completing an order, users can track the
+              status of their shipments and view order details.
+            </li>
+            <li>
+              <b>Admin Panel:</b> An admin panel is included, allowing administrators
+              to manage products, categories, orders, and user accounts.
+            </li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <h3>Project Links</h3>
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">GitHub Repo</a>
+        </div>
+      </section>
+
+      <section class="project-details">
+        <h2>Netflix Clone</h2>
+        <div class="project-overview">
+          <img src="pictures/netflixclone.jpg" alt="Project Image" />
+          <div class="project-info">
+            <h3>
+              Develop a comprehensive streaming platform replicating Netflix's
+              key features, including a user-friendly interface, efficient
+              backend system, and robust payment integration.
+            </h3>
+            <p>
+              The primary purpose of this project was to create a functional
+              clone of the popular streaming platform, Netflix.com. The goal was
+              to replicate the core features and functionalities of the original
+              website, allowing users to browse and stream content, manage
+              their watchlists, and complete the subscription process seamlessly.
+            </p>
+            <ul>
+              <li><strong>Technologies:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB</li>
+              <li><strong>Duration:</strong> 4 months</li>
+              <li><strong>Team Size:</strong> 5 members</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-description">
+          <h3>Project Description</h3>
+          <p>
+            The "Netflix Clone" project aimed to replicate the user interface
+            and core features of the popular streaming platform, Netflix. The
+            primary goal was to create a web application that would provide a
+            similar browsing and streaming experience to users, allowing them to
+            discover and watch movies and TV shows. The project was developed
+            using modern web technologies, including React.js for the front-end,
+            Node.js and Express.js for the back-end server, and MongoDB as the
+            database. The application followed a responsive design approach to
+            ensure optimal viewing experience across various devices, including
+            desktops, tablets, and mobile phones.
+          </p>
+        </div>
+        <div class="project-features">
+          <h3>Key Features</h3>
+          <ul>
+            <li>
+              <b>Content Listings:</b> The clone includes a comprehensive content
+              listing section, where users can browse through various categories
+              and search for specific content. Each content page displays
+              detailed information, including descriptions, images, ratings, and
+              reviews.
+            </li>
+            <li>
+              <b>Watchlist:</b> Users can add content to their watchlist,
+              update preferences, and remove items as desired. The watchlist
+              features a summary of the selected content, including new releases
+              and recommendations.
+            </li>
+            <li>
+              <b>User Authentication:</b> Users can create accounts, log in, and manage
+              their personal information and viewing history. The authentication
+              system includes secure password handling and email verification
+              functionality.
+            </li>
+            <li>
+              <b>Content Streaming:</b> Users can stream content directly on the
+              platform, with support for multiple resolutions and devices.
+            </li>
+            <li>
+              <b>Admin Panel:</b> An admin panel is included, allowing administrators
+              to manage content, categories, subscriptions, and user accounts.
+            </li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <h3>Project Links</h3>
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">GitHub Repo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ram's Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
